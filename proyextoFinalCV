@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FRONT_END/CSS/estiloCV.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&amp;display=swap" rel="stylesheet">
+    <!-----------CSS en Bootstrap------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Proyecto Final CV</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <h1>Curriculum Vitae</h1>
+        <h2>Vicente Hoffman</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 col-md-5 col-lg-6 col-xl-6 col xxl-6">
+            <img id="retrato" class="img-fluid col-sm-4 col-md-5 col-lg-6 col-xl-6 col xxl-6" src="https://i.pinimg.com/originals/74/f7/7c/74f77c0410f3aa6be79bda7976e0ed8e.jpg" alt="Retrato de Vicente Hoffman - Aproximadamente 45 años de edad - Caucásico - Indumentaria: Traje azul y anteojos">
+        </div>
+    </div>
+    
+    <br>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-12 col-xxl-12">
+            <div id="contenedor_input" class="col-sm-6 col-md-6 col-lg-6 col-xl-12 col-xxl-12">
+             <button class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="font-family: 'Aboreto', cursive;" type="submit" id="boton1" value="Datos personales" onclick="mostrar_ocultar_datosPersonales()">Datos personales</button>
+
+                <ul id="lista1" style="display: none;"> 
+                    <li>Nombre y Apellido: Vincente Hoffman</li>
+                    <li>Fecha de nacimiento: 09/11/1978</li>
+                    <li>Edad: 44 años</li>
+                    <li>Dirección: Calle sin salida 978</li>
+                    <li>Estado civil: Casado c/hijos</li>
+                    <li>nacionalidad: Argentina</li>
+                    <li>DNI: 25.456.345.1</li>
+                    <li>Correo electronico: Vince_hoff@gmail.com</li>
+                    <li>Telefono: 0342-4281-9191</li>
+                </ul>
+            </div>  
+        </div>         
+    </div>
+    <br>        
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-12 col-xxl-12">            
+            <div id="contenedor_input" class="col-sm-6 col-md-6 col-lg-6 col-xl-12 col-xxl-12"> 
+                <button class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="font-family: 'Aboreto', cursive;" type="submit" id="boton2" value="Estudios realizados" onclick="mostrar_ocultar_estudiosRealizados()">Estudios realizados</button>
+            </div>
+                
+                <ul id="lista2" style="display: block;"> 
+                    <li>Curso de Prevención de riesgos laborales</li>
+                    <li>Carnet de manipulador de alimentos</li>
+                    <li>Certificado de Monitor de tiempo libre</li>
+                    <li>Curso de primeros auxilios</li>
+                    <li>Curso de manejo de conflictos en el entorno laboral</li>
+                    <li>Certificado de gestión de ventas</li>
+                    <li>Tecnicatura superior en Desarrollo web</li>
+                    <li>Tecnicatura universitaria en Marketing digital</li>
+                    <li>Licenciatura en administración de empresas</li>
+                </ul>    
+        </div>
+    </div> 
+    <br>           
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-12 col-xxl-12" id="contenedor_input">
+                <button class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="font-family: 'Aboreto', cursive;" type="submit" id="boton3" value="Experiencia laboral" onclick="mostrar_ocultar_experienciaLaboral()">Experiencia laboral</button>
+                </div>
+                
+                <ul id="lista3" style="display: block;">
+                    <li>Mayo 2015-Enero 2021, Wavewood Tecnología, Madrid Coordinación de proyectos de distribución Apoyo al departamento de Recursos Humanos Negociaciones internacionales</li>
+                    <li>Enero 2010-Marzo 2015, Wavewood Fabricación, Madrid Supervisión de protocolos de seguridad Elaboración de informes Gestión de clientes y proveedores</li>
+                    <li>Enero 1998-Diciembre 2009, Wavewood Fabricación, Madrid Administrativo Gestión de clientes y proveedores </li>
+                </ul>
+        <br>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-12 col-xxl-12" id="contenedor_input">
+                <button class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="font-family: 'Aboreto', cursive;" type="submit" id="boton4" value="Más sobre mí" onclick="mostrar_ocultar_masSobreMi()">Más sobre mí</button>
+                </div>
+                
+                <ul id="lista4" style="display: block;"> Habilidades y Competencias:
+                    <li>Puntualidad</li>
+                    <li>Profesionalismo</li>
+                    <li>Asistencia</li>
+                    <li>Recopilación</li>
+                    <li>Análisis</li>
+                    <li>Mantenimiento</li>
+                    <li>Elaboración</li>
+                    <li>Orientación</li>
+                    <br>
+                    <ul>Idiomas:
+                        <li>Inglés Avanzado, Escrito: Intermedio, Hablado: Avanzado, Leído: Avanzado</li>
+                        <li>Inglés, certificación TOEFL, 213 puntos</li>
+                        <li>Inglés nivel B2</li>
+                        <li>Inglés nivel C1, Avanzado, especializado en negocios</li>
+                        <li>Francés intermedio Escrito: Intermedio, Hablado: Intermedio, Leído: Avanzad</li>
+                        <li>Francés, Certificado DELF B2</li>
+                        <li>Francés, nivel B2, intermedio</li>
+                    </ul>
+                </ul>            
+        </div>
+    </div>
+
+        
+    
+    <script src="FRONT_END/JAVA_SCRIPT/JSparaCv.js"></script>
+    
+    <!-----------JS en Bootstrap------------>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
