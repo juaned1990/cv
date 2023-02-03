@@ -1,0 +1,38 @@
+*{
+    font-family: 'Aboreto', cursive;
+    
+}
+
+
+ul{
+    font: bolder;
+}
+
+body{ 
+    background-image: url("	https://i.pinimg.com/originals/ff/07/2a/ff072a3250a7d977a99e1d6081bb7cf3.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+     }
+
+#retrato{
+    width: 450px;
+    height: 650px;
+    border: solid 105px black;
+    padding: 2px;
+    float: left;
+}
+
+input {
+    background-color: black;
+    color:white;
+    width: 400px;
+    margin: 40px;
+ }
+ 
+ input:hover{
+    background: rgb(61, 60, 60);
+    cursor: pointer;
+ }
+
+
